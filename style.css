@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.navegation{
+    text-align: right;
+}
+
+main{
+    height: 87%;
+    width: 100%;
+
+    background-color: #33023c;
+}
+
+
+
+.Card1{ 
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.334);
+    border: 1px solid black;
+     display:flex;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    background-color: black;
+    width: 300px;
+    height: 350px;}
+
+.Card2{
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.334);
+    border: 1px solid black;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    background-color: black;
+    width: 300px;
+    height: 350px;
+    
+}
+
+.Card3{
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.334);
+    border: 1px solid black;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    background-color: black;
+    width: 300px;
+    height: 350px;
+}
+
+
+.info{
+    position: absolute;
+    top: 250px;
+    width:300px ;
+    height:100px ;
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+    text-align: center;
+
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+    text-shadow: 1px 1px 1px black;
+}
+
+h2{
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+    
+    
+
+}
+
+h2:hover{
+    color: grey;
+}
+
+
+
