@@ -92,6 +92,18 @@ header{
     align-items: center;
     justify-content: baseline;
 }
+
+.logar{
+    display: block
+}
+
+.loginsub{
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    margin: 1px solid rgb(0, 0, 0);
+    color:black;
+}
 .Card2{
     position: relative;
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.334);
@@ -152,6 +164,7 @@ h2{
 }
 .allcards:focus-within .subcard1{
     display: block;
+    transition: 2s;
     
 }
 
@@ -162,4 +175,5 @@ h2{
 
 h2:hover{
     color: grey;
+    
 }
